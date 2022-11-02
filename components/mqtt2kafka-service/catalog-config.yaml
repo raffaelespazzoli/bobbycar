@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: mqtt2kafka
+  description: brdiger between m1tt and kafka
+  tags:
+    language: java
+    framework: kamelk
+spec:
+  type: kafka-streams
+  lifecycle: production
+  owner: arvind-demo-team
+  system: bobbycar
+  dependsOn:
+    - resource:amq-streams
+    - resource:amq-broker    

@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: arvind-demo-team
+  description: The creating the demo
+spec:
+  type: organization

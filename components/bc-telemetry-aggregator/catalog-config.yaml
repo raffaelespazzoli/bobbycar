@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bc-telemetry-aggregator
+  description: aggreates telemetry from kafka
+  tags:
+    language: java
+    framework: quarkus  
+spec:
+  type: kafka-streams
+  lifecycle: production
+  owner: arvind-demo-team
+  system: bobbycar
+  dependsOn:
+    - resource:amq-streams

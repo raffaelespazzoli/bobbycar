@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: amq-broker
+  description: amq-broker
+spec:
+  type: message-queue-broker
+  owner: arvind-demo-team
+  system: bobbycar

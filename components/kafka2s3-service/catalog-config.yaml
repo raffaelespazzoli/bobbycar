@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: kafka2s3
+  description: stores messages coming from kafka to s3
+  tags:
+    language: java
+    framework: kamelk
+spec:
+  type: kafka-streams
+  lifecycle: production
+  owner: arvind-demo-team
+  system: bobbycar
+  dependsOn:
+    - resource:amq-streams

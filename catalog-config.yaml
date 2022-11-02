@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: bobbycar
+  description: IoT Transportation demo using Red Hat OpenShift and Middleware technologies
+spec:
+  owner: arvind-demo-team
+  domain: red-hat-demo

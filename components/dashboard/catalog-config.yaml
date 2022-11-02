@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dashboard
+  description: displays telemetry
+  tags:
+    language: javascript
+    framework: angular  
+spec:
+  type: website
+  lifecycle: production
+  owner: arvind-demo-team
+  system: bobbycar
+  dependsOn:
+    - component:dashboard-streaming

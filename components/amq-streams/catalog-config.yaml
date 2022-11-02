@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: amq-streams
+  description: amq-streams
+spec:
+  type: kafka
+  owner: arvind-demo-team
+  system: bobbycar
