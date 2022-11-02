@@ -5,3 +5,4 @@ metadata:
   description: The creating the demo
 spec:
   type: organization
+  children: []
