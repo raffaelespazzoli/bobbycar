@@ -4,8 +4,8 @@ metadata:
   name: kafka2s3
   description: stores messages coming from kafka to s3
   tags:
-    language: java
-    framework: kamelk
+    - java
+    - kamelk
 spec:
   type: kafka-streams
   lifecycle: production

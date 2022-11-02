@@ -4,8 +4,8 @@ metadata:
   name: dashboard
   description: displays telemetry
   tags:
-    language: javascript
-    framework: angular  
+    - java
+    - angilar
 spec:
   type: website
   lifecycle: production

@@ -1,15 +1,15 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: device-registry
-  description: provides device registration capability
+  name: dashboard-streaming
+  description: expose telemetry as websockets
   tags:
-    language: java
-    framework: quarkus
+    - java
+    - quarkus 
 spec:
   type: service
   lifecycle: production
   owner: arvind-demo-team
   system: bobbycar
   dependsOn:
-    - resource:amq-broker
+    - component:bc-telemetry-aggregator

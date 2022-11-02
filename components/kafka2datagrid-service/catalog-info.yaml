@@ -1,11 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: bc-telemetry-aggregator
-  description: aggreates telemetry from kafka
+  name: kafka2datagrid
+  description: caches messages coming from kafka
   tags:
-    language: java
-    framework: quarkus  
+    - java
+    - kamelk 
 spec:
   type: kafka-streams
   lifecycle: production

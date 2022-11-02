@@ -1,11 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: mqtt2kafka
-  description: brdiger between m1tt and kafka
+  name: bc-telemetry-aggregator
+  description: aggreates telemetry from kafka
   tags:
-    language: java
-    framework: kamelk
+    - java
+    - quarkus  
 spec:
   type: kafka-streams
   lifecycle: production
@@ -13,4 +13,3 @@ spec:
   system: bobbycar
   dependsOn:
     - resource:amq-streams
-    - resource:amq-broker    
