@@ -5,7 +5,9 @@ metadata:
   description: aggreates telemetry from kafka
   tags:
     - java
-    - quarkus  
+    - quarkus
+  annotations: 
+    'sonarqube.org/project-key': raffaelespazzoli_bc-telemetry-aggregator
 spec:
   type: kafka-streams
   lifecycle: production
