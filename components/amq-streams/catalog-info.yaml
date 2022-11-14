@@ -5,10 +5,10 @@ metadata:
   description: amq-streams
   links:
     - url: https://eclipse-che.apps.control-cluster-raffa.demo.red-chesterfield.com/#https://github.com/raf-backstage-demo/raffa-qrs2?devfilePath=.devfilev2-theia.yaml
-      title: CodeReady Workspaces (Eclipse Theia)
+      title: OpenShift Dev Spaces (Eclipse Theia)
       icon: web
     - url: https://eclipse-che.apps.control-cluster-raffa.demo.red-chesterfield.com/#https://github.com/raf-backstage-demo/raffa-qrs2?che-editor=che-incubator/che-code/insiders&devfilePath=.devfilev2-vscode.yaml
-      title: CodeReady Workspaces (VS Code)
+      title: OpenShift Dev Spaces (VS Code)
       icon: web      
 spec:
   type: kafka
